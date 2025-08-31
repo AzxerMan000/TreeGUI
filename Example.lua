@@ -3,7 +3,7 @@
 	Demonstrates how to use the TreeUI library
 ]]
 
-local TreeUI = require(script.TreeUI) -- Adjust path as needed
+local TreeUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/TreeGUI/main/Source.lua"))() -- Adjust path as needed
 
 -- Initialize TreeUI
 local gui = TreeUI.new()
